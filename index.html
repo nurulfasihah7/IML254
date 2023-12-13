@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Personal Website</title>
+<style>
+* {box-sizing: border-box;}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0; 
+  padding: 0;
+  background-color: #000000;
+  color: #FFFFFF;}
+}
+
+header {
+  background-color: #333; 
+  color: #fff; 
+  text-align: center; 
+  padding: 1em;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  padding: 1em;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+section {
+  padding: 20px;
+  max-width: 800px; 
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #333;
+  color: #fff;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+</style>
+</head>
+
+<body>
+
+    <header>
+    <center><img src="header.jpg" width="100%" height="30%"></center>        
+        <center><h2>Welcome to my world beyond reality website!</h2></center>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About Myself</a>
+        <a href="family.html">My Family</a>
+        <a href="education.html">My Education</a>
+        <a href="friends.html">My Friends</a>
+        <a href="hobbies.html">My Hobby</a>
+        <a href="socialmedia.html">My Social Medias</a>
+    </nav>
+
+
+   <section id="home">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 20s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.4s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="qoute1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="qoute2.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="qoute3.jpg" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); //
+}
+</script>
+    </section>
+
+<center>
+<video width="57%" height="57%" controls>
+<source src="videointro.mp4" type="video/mp4">
+</video></center>
+<br>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<center><h2>Myself</h2></center>
+
+<div class="scroll-container">
+  <img src="gambar12.jpg" alt="Fasihah" width="700" height="500">
+  <img src="gambar13.jpg" alt="Sihah" width="700" height="500">
+  <img src="gambaruitm.jpg" alt="UITM" width="700" height="500">
+</div>
+
+</body>
+</html>
+
+    <footer>
+        <a href="pet.html" target="_blank">My Pet</a>
+        <br>
+        <br>
+        <a href="gallery.html" target="_blank">My Gallery</a>
+        <br>
+    <p>&copy; 2023 Nurul Fasihah Faisal. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

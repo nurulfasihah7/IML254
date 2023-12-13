@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My Hobby</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+* {box-sizing: border-box;}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0; 
+  padding: 0;
+  background-color: #000; 
+  color: #FFFFFF;}
+}
+
+header {
+  background-color: #333; 
+  color: #fff; 
+  text-align: center; 
+  padding: 1em;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  padding: 1em;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  margin: 0 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+section {
+  padding: 50px;
+  margin: 0 auto;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+  margin: 0;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+    <header>
+    <center><img src="header.jpg" width="100%" height="30%"></center>        
+        <center><h2>Welcome to my world beyond reality website!</h2></center>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About Myself</a>
+        <a href="family.html">My Family</a>
+        <a href="education.html">My Education</a>
+        <a href="friends.html">My Friends</a>
+        <a href="hobbies.html">My Hobby</a>
+        <a href="socialmedia.html">My Social Medias</a>
+    </nav>
+
+<section id="Hobbies">
+<h2 align="center">My Collections with My Friend, Fatini Mashitah.</h2>
+<p align="center">Fatini and I loved to collect and hunting limited books together. She likes English books more than Malay books unlike me. I love Malay books more than English books. I will keep my other books collection at Fatini's house as my father didn't fully support my hobby but he allows me to keep only half of my books at our house so the others will be kept at Fatini's house.
+Sometimes, we will exchange our books. She will borrow my Malay books while I will borrow her English books as well. We will share our opinions about those books we read with each other. I felt happy as I have a friend who shares the same hobby with me.</p>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+<head>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="collection9.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="collection10.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="collection8.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</section>
+
+<h2 align="center">Books gives me some kind of healing that no one can for me.</h2>
+<p align="center"> I always find books can treat me from the hard reality that I have to face. Sometimes fictional characters in these books can calm my inner soul.</p>
+<center>
+<video width="57%" height="57%" controls>
+<source src="videonovel.mp4" type="video/mp4">
+</video></center>
+
+<h2 align="center">These are my collections of books at my small library home.</h2>
+<br>
+<br>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="kaf.jpg">
+      <img src="kaf.jpg" alt="KAF" width="600" height="400">
+    </a>
+    <div class="desc">These are my 2 limited edition novels from author, Elvroseth. She collabs with Ink Loaf Publication to make a Prince of Death hardcover with sprayed edges. Besides Prince of Death hardcover is the notebook of Hijaiyah that was also produced by Ink Loaf Publication.</div>
+  </div> 
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="collectionnovel1.jpg">
+      <img src="collectionnovel1.jpg" alt="Collection Novel" width="600" height="400">
+    </a>
+    <div class="desc">These are my other collections novel that I am hunting for it for these past 8 years. Some of it are easy to find but some of it are hard to hunt as they are some kind of book that no longer reprint by the author or even limited quantities of it. Now, I have about 77 novels at my small library home.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="collectionnovel2.jpg">
+      <img src="collectionnovel2.jpg" alt="Collection Novel 2" width="600" height="400">
+    </a>
+    <div class="desc">These are my other collection of novels that I have bought from the author. Some are published under publication home while some of it are self published by the author.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="collectionnovel3.jpg">
+      <img src="collectionnovel3.jpg" alt="Collection Novel 3" width="600" height="400">
+    </a>
+    <div class="desc">These are my favourite collections from Luce Del Lio. She produced these novels by her own. I know her from Instagram as she keeps promoting her books. I got attracted by the cover of the book as it was black which is my favourite colour.</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p align="center">Sometimes I find that it is really tiring to have this kind of hobby because I often don't have much money to buy the books I want so I have to be frugal with the money I get all this time just to maintain this hobby. As for me, my book reading phase is getting less and less because I'm always too busy to read them so I can only keep them as my collection on my small shelf. I started from reading regular books to becoming a collector of limited edition books now.</p>
+  <p align="center">Besides that, my parents don't really support my hobby because for them it's just a waste of money and time but I never felt angry for my parents because what they advised was also right but for me to be able to see my books in my little shelf gave me infinite satisfaction. However, they didn't really throw away my book. They just advised me to spend less on books and prioritize other important needs. They also allowed me to keep some part of my collection at home and the rest of it at Fatini's house. While my friends always give me books as presents that I like and can't buy for some reason on my birthday every year. I'm grateful to be surrounded by good friends who always support my hobby even though my parents didn't.</p>
+</div>
+
+<section id="Collection Novel">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+<head>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+
+<br>
+<footer>
+        <a href="home.html" target="_blank">Home</a>
+        <br>
+        <br>
+        <a href="pet.html" target="_blank">My Pet</a>
+        <br>
+        <br>
+        <a href="gallery.html" target="_blank">My Gallery</a>
+        <br>
+    <p>&copy; 2023 Nurul Fasihah Faisal. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
